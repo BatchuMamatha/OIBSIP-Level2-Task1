@@ -54,6 +54,16 @@ form .header{
 form .operator{
     color: darkblue;
 }
+.footer {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            border-top: 1px solid #ddd;
+        }
 
 @media (max-width: 768px) {
     .calculator form input {
@@ -69,6 +79,9 @@ form .operator{
     form input.equal {
         width: 100px;
     }
+    .footer {
+                font-size: 12px;
+            }
 }
 
 /* For devices with a width less than or equal to 480px (e.g., mobile phones) */
@@ -94,4 +107,7 @@ form .operator{
     form .operator {
         color: blue;
     }
+    .footer {
+                font-size: 10px;
+            }
 }
