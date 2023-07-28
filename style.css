@@ -51,6 +51,47 @@ form .header{
     text-align: center;
     font-size: large;
 }
-FORM .operator{
+form .operator{
     color: darkblue;
+}
+
+@media (max-width: 768px) {
+    .calculator form input {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    form .display input {
+        font-size: 24px;
+    }
+
+    form input.equal {
+        width: 100px;
+    }
+}
+
+/* For devices with a width less than or equal to 480px (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .calculator form input {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    form .display input {
+        font-size: 18px;
+    }
+
+    form input.equal {
+        width: 80px;
+    }
+
+    form .header {
+        font-size: medium;
+    }
+
+    form .operator {
+        color: blue;
+    }
 }
