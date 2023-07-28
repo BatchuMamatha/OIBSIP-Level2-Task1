@@ -55,59 +55,59 @@ form .operator{
     color: darkblue;
 }
 .footer {
-            text-align: center;
-            background-color: #f2f2f2;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            border-top: 1px solid #ddd;
-        }
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
 
 @media (max-width: 768px) {
-    .calculator form input {
-        width: 40px;
-        height: 40px;
-        font-size: 16px;
-    }
+.calculator form input {
+width: 60px;
+height: 60px;
+font-size: 16px;
+}
 
-    form .display input {
-        font-size: 24px;
-    }
+form .display input {
+font-size: 24px;
+}
 
-    form input.equal {
-        width: 100px;
-    }
-    .footer {
-                font-size: 12px;
-            }
+form input.equal {
+width: 100px;
+}
+.footer {
+font-size: 20px;
+}
 }
 
 /* For devices with a width less than or equal to 480px (e.g., mobile phones) */
 @media (max-width: 480px) {
-    .calculator form input {
-        width: 30px;
-        height: 30px;
-        font-size: 12px;
-    }
+.calculator form input {
+width: 60px;
+height: 60px;
+font-size: 12px;
+}
 
-    form .display input {
-        font-size: 18px;
-    }
+form .display input {
+font-size: 18px;
+}
 
-    form input.equal {
-        width: 80px;
-    }
+form input.equal {
+width: 80px;
+}
 
-    form .header {
-        font-size: medium;
-    }
+form .header {
+font-size: medium;
+}
 
-    form .operator {
-        color: blue;
-    }
-    .footer {
-                font-size: 10px;
-            }
+form .operator {
+color: blue;
+}
+.footer {
+font-size: 15px;
+}
 }
